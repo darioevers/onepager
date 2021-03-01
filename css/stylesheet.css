@@ -1,7 +1,7 @@
 html {
-  height: 100%;
+  height: 100vh;
   background-image: url("../images/bg_001.jpg");
-  height: 100%;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,6 +10,7 @@ html {
 
 main {
   display: flex;
+  height: 80vh;
   width: 1100px;
   margin: auto;
   color: white;
@@ -25,9 +26,10 @@ main p {
 }
 
 .content__left {
-  max-width: 50%;
+  width: 50%;
   text-align: justify;
-  margin-top: 100px;
+  margin-top: 15%;
+  margin-right: 5%;
 }
 
 .buttons {
@@ -59,7 +61,7 @@ main p {
 .content__right {
   position: relative;
   display: flex;
-  max-width: 50%;
+  width: 500px;
   margin: auto auto auto 100px;
 }
 
@@ -70,7 +72,7 @@ main p {
 
 .phone2 {
   height: 500px;
-  margin-left: -130px;
+  margin-left: -25%;
   margin-top: -15px;
   z-index: 1;
 }
@@ -80,12 +82,12 @@ main p {
   display: flex;
   background-color: transparent;
   overflow: hidden;
-  text-align: right;
+  text-align: left;
   justify-content: center;
-  line-height: 50px;
-  min-height: 50px;
-  width: 1000px;
-  margin: auto;
+  line-height: 80px;
+  min-height: 80px;
+  width: 1100px;
+  margin: 3.5% auto;
 }
 
 .logo {
