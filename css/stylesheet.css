@@ -103,11 +103,11 @@ main p {
   width: 1100px;
   color: white;
   text-align: right;
-  padding: 14px 16px;
+  padding: 14px 18px;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-size: 100%;
-  font-weight: 650;
+  font-weight: 450;
   transition: 0.8s;
 }
 
@@ -118,5 +118,5 @@ main p {
 }
 
 .topnav img {
-  width: 150px;
+  width: 180px;
 }
