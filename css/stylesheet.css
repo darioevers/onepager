@@ -1,0 +1,74 @@
+body,
+html {
+  height: 100%;
+  background-image: url("../images/bg_001.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+
+main {
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  color: white;
+  font-family: Montserrat;
+}
+
+main h2 {
+  font-size: 1.1em;
+}
+
+.content__left {
+  max-width: 50%;
+}
+
+.content__right {
+  max-width: 50%;
+}
+
+.topnav {
+  position: relative;
+  display: flex;
+  background-color: transparent;
+  overflow: hidden;
+  text-align: right;
+  justify-content: center;
+  line-height: 50px;
+  min-height: 50px;
+  width: 1100px;
+  margin: auto;
+}
+
+.logo {
+  width: 40%;
+  justify-content: left;
+}
+
+.nav {
+  width: 60%;
+}
+
+.nav a {
+  width: 1100px;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+  font-weight: 650;
+  transition: 0.8s;
+}
+
+.nav a:hover {
+  font-size: 110%;
+  transition: 0.3s;
+  color: salmon;
+}
+
+.topnav img {
+  width: 150px;
+}
