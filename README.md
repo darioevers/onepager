@@ -1,6 +1,6 @@
 # onepager
 
-<img src="images/screenshot.png">
+<img src="images/screenshot2.png">
 
 ## A onepage app based on HTML and CSS.
 
