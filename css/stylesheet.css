@@ -45,6 +45,8 @@ main p {
   font-family: Montserrat;
   font-size: 1em;
   border: none;
+  transition: 0.5s;
+  margin-right: 2vw;
 }
 
 .button2 {
@@ -56,6 +58,12 @@ main p {
   font-family: Montserrat;
   font-size: 1em;
   border: none;
+  transition: 0.5s;
+}
+
+button:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
 }
 
 .content__right {
